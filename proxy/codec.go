@@ -3,8 +3,8 @@ package proxy
 import (
 	"fmt"
 
-	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"
+	"google.golang.org/protobuf/proto"
 )
 
 // Codec returns a proxying grpc.Codec with the default protobuf codec as parent.
